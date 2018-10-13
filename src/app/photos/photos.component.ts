@@ -33,9 +33,9 @@ export class PhotosComponent implements OnInit {
     this.images.push({source: 'assets/photos/Tank4.jpg', alt: 'Ben Coding', title:'Ben Coding'});
     this.images.push({source: 'assets/photos/Tank5.jpg', alt: 'Ben Coding', title:'Ben Coding'});
     this.images.push({source: 'assets/photos/Tank6.jpg', alt: 'Ben Coding', title:'Ben Coding'});
-    this.images.push({source: 'assets/photos/Tank7.jpg', alt: 'Ben Coding', title:'Ben Coding'});
-
-    
+    this.images.push({source: 'assets/photos/Tank7.jpg', alt: 'Ben Coding', title:'Ben Coding'}); 
   }
+
+  
 
 }

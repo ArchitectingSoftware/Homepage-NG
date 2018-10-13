@@ -11,7 +11,9 @@
       width: 2px;
       margin-left: -1.5px;
       content: '';
-      background-color: #f1f1f1; }
+      /* background-color: #f1f1f1; */
+      background-color:blue;
+    }
     .timeline > li {
       position: relative;
       min-height: 50px;
@@ -46,7 +48,7 @@
         margin-left: 0;
         text-align: center;
         color: white;
-        border: 7px solid #f1f1f1;
+        border: 7px solid #4286f4; /*#f1f1f1; */
         border-radius: 100%;
         background-color: #fed136; }
         .timeline > li .timeline-image h4 {

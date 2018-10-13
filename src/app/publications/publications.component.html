@@ -1,5 +1,5 @@
 <!-- Services -->
-<section id="research" class="bg-light" >
+<section id="research" style="background-color: #e9d6fc;" >
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -12,7 +12,10 @@
       </div>
       <div class="row">
           <span class="font-italic font-weight-bold">
-              A Heuristic Search Approach to Solving the Software Clustering Problem
+              <span><i class="fa fa-file-pdf-o"></i></span> 
+              <a href="assets/pubs/MitchellPhD.pdf">
+                A Heuristic Search Approach to Solving the Software Clustering Problem
+              </a>
           </span>
           <p>
               The focus of this work was to investigate recovering interesting views of 
@@ -33,6 +36,7 @@
       <div class="row" *ngFor="let pub of publicationsList; let idx = index">
         <p>
             <span>
+              <span><i class="fa fa-file-pdf-o"></i></span> 
               <a href="{{pub.link}}">"{{pub.title}}"</a> by {{pub.cite}}
                 <a href="#" (click)="toggleVisibility($event,idx)" 
                 [attr.aria-expanded]="showAbstractArray[idx]" class="badge badge-primary">Abstract</a>

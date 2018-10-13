@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 
@@ -17,6 +18,8 @@ import { PhotosComponent } from './photos/photos.component'
 import {GalleriaModule} from 'primeng/galleria'
 import {AccordionModule} from 'primeng/accordion';
 
+import { Angular2ImageGalleryModule } from 'angular2-image-gallery'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,10 +33,12 @@ import {AccordionModule} from 'primeng/accordion';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    CommonModule,
     NgbModule,
     NgxPageScrollModule,
     GalleriaModule,
-    AccordionModule
+    AccordionModule,
+    Angular2ImageGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
